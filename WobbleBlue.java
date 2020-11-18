@@ -18,8 +18,10 @@ public class WobbleBlue extends LinearOpMode {
     public void runOpMode() {
         robot.init(hardwareMap);
         Gyro gyro;
+        gyro = new Gyro(robot.hwMap, "imu"); // special initialization for gyro
+        gyro.start();
 
-        WobbleBlue.States current_state = WobbleBlue.States.DRIVE_OUT1;
+        WobbleBlue.States current_state = WobbleBlue.States.STOP;
 
         // send telemetry message to signify robot waiting
         telemetry.addData("Status: ", "Snoozing");
@@ -29,10 +31,11 @@ public class WobbleBlue extends LinearOpMode {
         // wait for the start button to be pressed.
         waitForStart();
 
+        gyro.resetHeading();
         robot.resetAllEncoders();
         telemetry.addData("Status", current_state);
         telemetry.update();
-        sleep(100);
+        sleep(500);
 
         while (current_state == WobbleBlue.States.DRIVE_OUT1) {
             robot.setDriveMotors(0.4, 0.4, 0.4, 0.4); //drive forwards
