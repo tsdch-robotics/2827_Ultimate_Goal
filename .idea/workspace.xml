@@ -29,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VisionAutoBlue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="340">
               <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10135#0" expanded="true" />
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeleOP/TankDriveTeleop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1474">
+            <state>
               <folding>
                 <element signature="e#0#4990#0" expanded="true" />
               </folding>
@@ -96,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,7 +124,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,6 +186,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/VisionAutoBlue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gyro.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -199,19 +209,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VisionAutoBlue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeleOP/TankDriveTeleop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1474">
+        <state>
           <folding>
             <element signature="e#0#4990#0" expanded="true" />
           </folding>
